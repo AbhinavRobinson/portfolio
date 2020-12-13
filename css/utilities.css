@@ -1,1 +1,10 @@
 /* UTILITIES */
+
+.container {
+    /* fixes for small displays */
+    padding: 0 40px;
+}
+
+.text-center {
+    text-align: center;
+}
