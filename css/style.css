@@ -24,8 +24,12 @@
 body {
     /* uses imported font */
     font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: 18px;
+
     background-color: var(--primary-color);
     line-height: 1.6;
+    color: white;
 
     overflow-x: hidden;
 }
@@ -37,14 +41,14 @@ ul {
 
 a {
     /* remove blue hyperlinks */
-    text-decoration: none;
-    color: #333;
+    text-decoration: none;   
+    color: white;
 }
 
 h1, h2 {
     /* format headings */
-    font-weight: 300;
-    line-height: 1.2;
+    font-weight: 500;
+    line-height: 1.6;
     margin: 10px 0;
 }
 
@@ -62,4 +66,45 @@ code, pre {
     background-color: #333;
     color: white;
     padding: 10px;
+}
+
+/* NAVBAR */
+
+.navbar {
+    height: auto;
+    padding: 50px 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    padding: 15px 33px;
+    margin: 0 15px;
+
+    transition: 300ms;
+}
+
+.navbar a:hover {
+    border-bottom: 1px var(--secondary-color) solid;
+}
+
+
+.navbar .logo {
+    font-size: 3rem;
+    font-weight: 500;
+
+    transition: 300ms;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar .logo:hover {
+    border-bottom: 0 #000 solid;
+    color: var(--light-color);
 }
