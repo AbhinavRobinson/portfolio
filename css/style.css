@@ -82,8 +82,7 @@ code, pre {
 }
 
 .navbar a {
-    padding: 15px 33px;
-    margin: 0 15px;
+    padding: 25px 50px;
 
     transition: 300ms;
 }
@@ -96,7 +95,6 @@ code, pre {
 .navbar .logo {
     font-size: 3rem;
     font-weight: 500;
-
     transition: 300ms;
 }
 
