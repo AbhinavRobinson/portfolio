@@ -103,6 +103,40 @@ code, pre {
 }
 
 .navbar .logo:hover {
-    border-bottom: 0 #000 solid;
+    border-bottom: 0 var(--primary-color) solid;
     color: var(--light-color);
+}
+
+/* HERO */
+
+.hero h1 {
+    margin: 15vh 0;
+    width: 100vw;
+    font-size: 4rem;
+}
+
+.hero .xs {
+    transition: 50ms;
+}
+
+.hero .ny {
+    transition: 50ms;
+}
+
+.hero .xs:hover {
+    color: var(--light-color);
+    text-shadow: -1px -1px 0 white,
+                  1px -1px 0 white,
+                 -1px  1px 0 white,
+                  1px  1px 0 white,
+                  1px 1px 50px var(--light-color);
+}
+
+.hero .ny:hover {
+    color: rgb(12, 117, 30);
+    text-shadow: -1px -1px 0 white,
+                  1px -1px 0 white,
+                 -1px  1px 0 white,
+                  1px  1px 0 white,
+                  1px 1px 50px rgb(0, 119, 20);
 }
