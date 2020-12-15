@@ -2,9 +2,7 @@
 
 @media (max-width: 1300px) {
     .navbar ul {
-        display: block;
-        margin: 0;
-        padding: 0;
+        flex-direction: column;
     }
 
     .navbar a {
