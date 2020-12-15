@@ -1,79 +1,79 @@
 /* UTILITIES */
 
 .container {
-    /* fixes for small displays */
-    padding: 0 40px;
+  /* fixes for small displays */
+  padding: 0 40px;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 /* ---- GRIDS AND FLEX ---- */
 
-.flex{
-    /* time to flex :) */
-    display: flex;
+.flex {
+  /* time to flex :) */
+  display: flex;
 
-    /* moves boxes to center (main-axis: defined by flex direction) */
-    justify-content: center;
+  /* moves boxes to center (main-axis: defined by flex direction) */
+  justify-content: center;
 
-    /* aligns items vertically (cross-axis: defined by flex direction) */
-    align-items: center;
+  /* aligns items vertically (cross-axis: defined by flex direction) */
+  align-items: center;
 
-    /* fit container */
-    height: 100%;
+  /* fit container */
+  height: 100%;
 }
 
 .grid {
-    display: grid;
+  display: grid;
 
-    /* divide space in fractions for each child within container */
-    /* repeat(2, 1fr) == 1fr 1fr */
-    grid-template-columns: repeat(2, 1fr);
+  /* divide space in fractions for each child within container */
+  /* repeat(2, 1fr) == 1fr 1fr */
+  grid-template-columns: repeat(2, 1fr);
 
-    /* space between grid items */
-    gap: 20px;
+  /* space between grid items */
+  gap: 20px;
 
-    /* center items */
-    justify-content: center;
-    align-items: center;
+  /* center items */
+  justify-content: center;
+  align-items: center;
 
-    /* fit grid to container */
-    height: 100%;
+  /* fit grid to container */
+  height: 100%;
 }
 
 .grid-3 {
-    /* 3 items in one row */
-    grid-template-columns: repeat(3, 1fr);
+  /* 3 items in one row */
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .grid-4 {
-    /* 4 items in one row */
-    grid-template-columns: repeat(4, 1fr);
+  /* 4 items in one row */
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid-5 {
-    /* 5 items in one row */
-    grid-template-columns: repeat(5, 1fr);
+  /* 5 items in one row */
+  grid-template-columns: repeat(5, 1fr);
 }
 
 /* ---- TEXT COLORS ---- */
 
 .text-primary {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .text-secondary {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .text-dark {
-    color: var(--dark-color);
+  color: var(--dark-color);
 }
 
 .text-light {
-    color: var(--light-color);
+  color: var(--light-color);
 }
 
 /* ---- END OF TEXT COLORS ---- */
@@ -81,27 +81,27 @@
 /* ---- TEXT SIZES ---- */
 
 .lead {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .sm {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .rg {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .md {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .lg {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .xl {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 /* ---- END OF TEXT SIZES ---- */
@@ -111,51 +111,51 @@
 /* rem base unit 16px */
 
 .my-1 {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .my-2 {
-    margin: 1.5rem 0;
+  margin: 1.5rem 0;
 }
 
 .my-3 {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .my-4 {
-    margin: 3rem 0;
+  margin: 3rem 0;
 }
 
 .my-5 {
-    margin: 4rem 0;
+  margin: 4rem 0;
 }
 
 .my-10 {
-    margin: 8rem 0;
+  margin: 8rem 0;
 }
 
 .my-15 {
-    margin: 12rem 0;
+  margin: 12rem 0;
 }
 
 .m-1 {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .m-2 {
-    margin: 1.5rem;
+  margin: 1.5rem;
 }
 
 .m-3 {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 .m-4 {
-    margin: 3rem;
+  margin: 3rem;
 }
 
 .m-5 {
-    margin: 4rem;
+  margin: 4rem;
 }
 
 /* ---- END OF MARGINS ---- */
@@ -163,43 +163,43 @@
 /* ---- PADDINGS ---- */
 
 .py-1 {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .py-2 {
-    padding: 1.5rem 0;
+  padding: 1.5rem 0;
 }
 
 .py-3 {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .py-4 {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
 
 .py-5 {
-    padding: 4rem 0;
+  padding: 4rem 0;
 }
 
 .p-1 {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .p-2 {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .p-3 {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .p-4 {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .p-5 {
-    padding: 4rem;
+  padding: 4rem;
 }
 
 /* ---- END OF PADDINGS ---- */
