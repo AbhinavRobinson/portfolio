@@ -2,11 +2,16 @@
 
 @media (max-width: 1300px) {
     .navbar ul {
+        margin: 4rem 0;
         flex-direction: column;
     }
 
     .navbar a {
         padding: 10px 33px;
+    }
+
+    .hero {
+        margin: 4rem 0;
     }
 }
 
@@ -14,6 +19,10 @@
     .navbar .logo {
         font-size: 4vw;
         min-width: 200px;
+    }
+
+    .navbar ul {
+        margin: 3rem 0;
     }
 
     .hero h1 {
