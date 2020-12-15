@@ -1,33 +1,67 @@
 /* RESPONSIVE STYLES */
 
 @media (max-width: 1300px) {
-    .navbar ul {
-        margin: 4rem 0;
-        flex-direction: column;
-    }
+  .navbar ul {
+    margin: 4rem 0;
+    flex-direction: column;
+  }
 
-    .navbar a {
-        padding: 10px 33px;
-    }
+  .navbar a {
+    padding: 10px 33px;
+  }
 
-    .hero {
-        margin: 4rem 0;
-    }
+  .hero {
+    margin: 4rem 0;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .category {
+    display: none;
+  }
 }
 
 @media (max-width: 670px) {
-    .navbar .logo {
-        font-size: 4vw;
-        min-width: 200px;
-    }
+  .navbar .logo {
+    font-size: 4vw;
+    min-width: 200px;
+  }
 
-    .navbar ul {
-        margin: 3rem 0;
-    }
+  .navbar ul {
+    margin: 3rem 0;
+  }
 
-    .hero h1 {
-        margin: 5vh 0;
-        font-size: 2.5rem;
-        width: 90vw;
-    }
+  .hero h1 {
+    margin: 5vh 0;
+    font-size: 2.5rem;
+    width: 90vw;
+  }
+}
+
+@media (min-width: 62rem) {
+  nav ul {
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  img:hover {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  .img-container {
+    height: 100%;
+  }
+  .img-container:hover .img-content-hover {
+    display: none;
+  }
+
+  .img-content {
+    display: block;
+    padding: 1rem 0;
+  }
 }
