@@ -205,3 +205,36 @@ pre {
     grid-gap: 1rem;
   }
 }
+
+/* ABOUT SECTION */
+
+.about .flex {
+  padding: 0 10vw;
+  flex-direction: column;
+}
+
+.about p {
+  font-size: 2rem;
+  margin: 0 8rem;
+
+  transition: 300ms;
+}
+
+.about p:hover {
+  transform: translateY(-2.5px);
+}
+
+/* SOCIALS */
+
+.social h1 {
+  line-height: 1;
+}
+
+.social h1 .sub {
+  color: rgb(24, 24, 24);
+}
+
+.social h1 .sub:hover {
+  text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333,
+    1px 1px 0 #333, 1px 1px 50px var(--primary-color);
+}

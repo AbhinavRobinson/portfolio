@@ -104,11 +104,19 @@
   font-size: 4rem;
 }
 
+.xxl {
+  font-size: 8rem;
+}
+
 /* ---- END OF TEXT SIZES ---- */
 
 /* ---- MARGINS ---- */
 
 /* rem base unit 16px */
+
+.no-mg {
+  margin: 0 0;
+}
 
 .my-1 {
   margin: 1rem 0;
@@ -132,6 +140,10 @@
 
 .my-10 {
   margin: 8rem 0;
+}
+
+.myt-10 {
+  margin: 8rem 0 0 0;
 }
 
 .my-15 {
@@ -161,6 +173,10 @@
 /* ---- END OF MARGINS ---- */
 
 /* ---- PADDINGS ---- */
+
+.no-pad {
+  padding: 0 0;
+}
 
 .py-1 {
   padding: 1rem 0;
