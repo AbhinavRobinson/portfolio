@@ -24,6 +24,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   /* uses imported font */
   font-family: "Roboto Mono", monospace;
@@ -34,7 +38,6 @@ body {
   line-height: 1.6;
   color: white;
 
-  overflow-x: hidden;
 }
 
 ul {
