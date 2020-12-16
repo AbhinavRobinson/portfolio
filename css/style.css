@@ -181,7 +181,7 @@ pre {
   white-space: nowrap;
   display: none;
   padding: 1rem;
-  background: rgb(255, 255, 255);
+  background: #fff;
   border-radius: 10px;
   font-weight: 400;
   margin-top: 1.25rem;
@@ -231,6 +231,10 @@ pre {
 
 .social h1 {
   line-height: 1;
+}
+
+.social h1 .ds {
+  transition: 100ms;
 }
 
 .social h1 .sub {
