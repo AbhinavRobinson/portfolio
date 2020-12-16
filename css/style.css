@@ -101,9 +101,9 @@ pre {
 .navbar .logo:hover {
   font-weight: 500;
   border-bottom: 0 var(--primary-color) solid;
-  color: var(--light-color);
+  color: var(--primary-color);
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
-    1px 1px 0 white, 1px 1px 50px var(--light-color);
+    1px 1px 0 white, 1px 1px 50px var(--primary-color);
 }
 
 /* HERO */
@@ -130,6 +130,12 @@ pre {
   color: var(--green-color);
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
     1px 1px 0 white, 1px 1px 50px var(--green-color);
+}
+
+.hero .ds:hover {
+  color: var(--primary-color);
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white, 1px 1px 50px var(--primary-color);
 }
 
 /* Gallery */
