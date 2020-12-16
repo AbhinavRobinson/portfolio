@@ -2,4 +2,4 @@
 
 ## Portfolio Website
 
-Visit <http://abhinavdesigns.studio>
+Visit <http://abhinavdesigns.studio/portfolio>
